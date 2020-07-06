@@ -1,0 +1,13 @@
+type Product {
+    id: ID!
+    name: String!
+    category: ProductCategory!
+}
+
+extend type Query {
+    findAllProducts: [Product]!
+}
+
+extend type Mutation {
+    createProduct(name: String!, categoryId: ID!): Product!
+}
