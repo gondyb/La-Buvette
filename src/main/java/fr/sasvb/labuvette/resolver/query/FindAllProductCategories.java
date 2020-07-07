@@ -4,7 +4,6 @@ import fr.sasvb.labuvette.model.ProductCategory;
 import fr.sasvb.labuvette.repository.ProductCategoryRepository;
 import graphql.kickstart.tools.GraphQLQueryResolver;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Component;
 
 @Component
